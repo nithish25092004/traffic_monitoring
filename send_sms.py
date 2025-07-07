@@ -1,4 +1,3 @@
-```python
 import requests
 
 def send_sms_fast2sms(phone, message):
@@ -16,6 +15,3 @@ def send_sms_fast2sms(phone, message):
     }
     response = requests.post(url, data=payload, headers=headers)
     print("SMS Response:", response.text)
-```
-
----
