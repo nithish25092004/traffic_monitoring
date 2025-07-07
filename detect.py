@@ -1,4 +1,3 @@
-```python
 import torch
 
 def load_model():
@@ -10,6 +9,3 @@ def detect_helmet(model, image):
     person = not df[df['name'] == 'person'].empty
     helmet = not df[df['name'] == 'helmet'].empty
     return helmet and person
-```
-
----
