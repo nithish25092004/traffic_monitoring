@@ -1,4 +1,3 @@
-```python
 from flask import Flask, request, render_template
 import cv2, numpy as np, os, pandas as pd
 from datetime import datetime
@@ -59,6 +58,3 @@ def dashboard():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
-```
-
----
